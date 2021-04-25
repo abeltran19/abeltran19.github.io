@@ -14,7 +14,7 @@
   
   /*settings for when hover over nav button to turn it a bit darker*/
   .navbutton:hover {
-    background-color: rgb(62, 62, 63);
+    background-color: rgb(33, 104, 33);
     color: white;
     text-decoration: none;
   }
