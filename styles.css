@@ -8,7 +8,7 @@
     text-transform: uppercase;
     font-size: calc(8px + 0.5vw);
     position: center;
-    width: 10vw;
+    width: 9vw;
     margin: 1.5vw;
   }
   
@@ -40,7 +40,7 @@
     font-size: 16px;
     margin: 30px;
   }
-  
+
   button2 {
     background-color: #4caf50; /* Green */
     border: none;
