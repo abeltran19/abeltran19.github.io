@@ -29,7 +29,32 @@
     </div>     
   </nav>
 
-  
-
+  <!--This is the start of our account page, where users can change account information-->
   <body>
-    <!--This is the start of our account page, where users can change account information-->
+    <div class="container">
+      <h1 class="text-title">My Profile</h1>
+      <form style="display: none;" id="not-logged-in">
+        <div>
+          <label>What is your name?</label>
+          <input type="text" id="name">
+        </div>
+        <div>
+          <label>Please paste the URL to your image</label>
+          <input type="url" id="pic">
+        </div>
+        <div>
+          <label>Please select your role:</label>
+          <select id="role">
+            <option value="Nurse">Nurse</option>
+            <option value="Physician">Physician</option>
+            <option value="Industry Worker">Industry Worker</option>
+            <option value="Technician">Hospital Technician</option>
+            <option value="Administrator">Hospital Administrator</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div>
+          <input id="profile-submit" class="button-example" type="submit" value="Submit" />
+        </div>
+      </body>
+  
