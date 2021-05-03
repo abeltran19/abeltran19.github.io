@@ -30,9 +30,10 @@
   
   
   .getstarted {
-    background-color: #d6ab1d; 
+    background-color: #89e215; 
     border: none;
-    color: rgb(219, 158, 25);
+    color: rgb(66, 66, 66);
+    box-shadow: 0 8px 6px -6px gray;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -42,9 +43,10 @@
   }
 
   .learnmore {
-    background-color: #d4b217; 
+    background-color: #89e215; 
     border: none;
-    color: rgb(223, 27, 206);
+    color: rgb(66, 66, 66);
+    box-shadow: 0 8px 6px -6px gray;
     padding: 10px;
     text-align: center;
     text-decoration: none;
