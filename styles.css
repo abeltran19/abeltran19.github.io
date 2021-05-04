@@ -3,10 +3,14 @@
 h1 {
   text-align: center;
   text-decoration: rgb(71, 204, 71);
-  font-size: 46px;
+  font-size: 256px;
   font-family: cursive;
   text-decoration-style: wavy;
   text-shadow: 2px 2px #000000
+}
+
+.drimg {
+  -ms-flex-item-align: center;
 }
 
 .navbutton {
@@ -66,7 +70,7 @@ h1 {
   }
 
   body{
-    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    background: -webkit-linear-gradient(left, #059435, #20df8f);
 }
 .emp-profile{
     padding: 3%;
