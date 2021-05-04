@@ -13,7 +13,7 @@ h1 {
   background-position: center;
 }
 
-.helpbuttons {
+.basics {
   background-color: #89e215; 
   border: none;
   color: rgb(66, 66, 66);
@@ -24,15 +24,107 @@ h1 {
   font-size: 16px;
   margin: 30px;
   border-radius: 4px;
-}
-
-.basics {
   display: block;
   margin: 20px 20px 20px 20px;
   width: 60px;
   height: 20px;
   font-weight: bold;
   float:left; 
+}
+
+.faq {
+  background-color: #89e215; 
+  border: none;
+  color: rgb(66, 66, 66);
+  box-shadow: 0 8px 6px -6px gray;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 30px;
+  border-radius: 4px;
+  display: block;
+  margin: 20px 20px 20px 20px;
+  width: 60px;
+  height: 20px;
+  font-weight: bold;
+  float:left; 
+}
+
+.report {
+  background-color: #89e215; 
+  border: none;
+  color: rgb(66, 66, 66);
+  box-shadow: 0 8px 6px -6px gray;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 30px;
+  border-radius: 4px;
+  display: block;
+  margin: 20px 20px 20px 20px;
+  width: 60px;
+  height: 5px;
+  font-weight: bold;
+  float:left; 
+}
+
+.contact {
+  background-color: #89e215; 
+  border: none;
+  color: rgb(66, 66, 66);
+  box-shadow: 0 8px 6px -6px gray;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 30px;
+  border-radius: 4px;
+  display: block;
+  margin: 20px 20px 20px 20px;
+  width: 60px;
+  height: 50px;
+  font-weight: bold;
+  float:left; 
+}
+
+.articles {
+  background-color: #89e215; 
+  border: none;
+  color: rgb(66, 66, 66);
+  box-shadow: 0 8px 6px -6px gray;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 30px;
+  border-radius: 4px;
+  display: block;
+  margin: 20px 20px 20px 20px;
+  width: 60px;
+  height: 20px;
+  font-weight: bold;
+  float:right; 
+}
+
+.forum {
+  background-color: #89e215; 
+  border: none;
+  color: rgb(66, 66, 66);
+  box-shadow: 0 8px 6px -6px gray;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 30px;
+  border-radius: 4px;
+  display: block;
+  margin: 20px 20px 20px 20px;
+  width: 60px;
+  height: 20px;
+  font-weight: bold;
+  float:center; 
 }
 
 .navbutton {
