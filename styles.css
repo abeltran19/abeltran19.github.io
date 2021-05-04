@@ -10,7 +10,9 @@ h1 {
 }
 
 .drimg {
-  -ms-flex-item-align: center;
+  display: block;
+margin-left: auto;
+margin-right: auto
 }
 
 .navbutton {
