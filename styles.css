@@ -16,19 +16,18 @@ h1 {
 .basics {
   background-color: #89e215; 
   border-left-style: solid;
-  border-color: rgb(33, 104, 33);
+  border-color: 8px rgb(33, 104, 33);
   color: rgb(66, 66, 66);
   box-shadow: 0 8px 6px -6px gray;
-  padding-top: 5px;
-  padding-left: 120px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
   font-size: 24px;
-  margin: 60px;
+  margin-left: 240px;
+  margin-top: 10px;
   border-radius: 4px;
   display:block;
-  margin: 80px 80px 80px 80px;
-  width: 120px;
+  width: 80px;
   height: 60px;
   font-weight: bold;
 }
