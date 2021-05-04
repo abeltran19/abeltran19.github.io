@@ -144,7 +144,7 @@ h1 {
   /*settings for when hover over nav button to turn it a bit darker*/
   .navbutton:hover {
     background-color: rgb(33, 104, 33);
-    color: white;
+    color: black;
     text-decoration: none;
   }
   
@@ -315,3 +315,10 @@ h1 {
     font-weight: 600;
     color: #0062cc;
 }
+
+
+/*to make links not have underline unless hovered on or clicked*/
+a:link { text-decoration: none; color:inherit;}
+a:visited { text-decoration: none; color:inherit; }
+a:hover { text-decoration: underline; color:inherit;}
+a:active { text-decoration: underline; color:inherit; }
