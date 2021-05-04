@@ -1,83 +1,85 @@
 <head>
-    <title>MediPod</title>
-    <link href="styles.css" rel="stylesheet"/>
+  <title>MediPod</title>
+  <link href="styles.css" rel="stylesheet"/>
 
-    <div>
-        <img src="https://cdn.discordapp.com/attachments/801195615358681148/832722595169173564/blackmoonrose13-professor-metapod.png" style="width:350px;height:450px">
-    </div>
-    <h1>MediPod</h1>
+  <div>
+      <img src="https://cdn.discordapp.com/attachments/801195615358681148/832722595169173564/blackmoonrose13-professor-metapod.png" style="width:200;height:250">
+  </div>
+  <h1>MediPod</h1>
 </head>
 
 <nav>
-    <!--This is the navigation bar buttons/links-->
-    <div class="navigationbar">
-    <!--links to the home page-->
-      <a class="navbutton" href="index.html">Home</a>
-           
-     <!--links to the following page-->
-      <a class="navbutton" href="following.html">Following</a>
+  <!--This is the navigation bar buttons/links-->
+  <div class="navigationbar">
+  <!--links to the home page-->
+    <a class="navbutton" href="index.html">Home</a>
+         
+   <!--links to the following page-->
+    <a class="navbutton" href="following.html">Following</a>
 
-     <!--links to the browse page-->
-      <a class="navbutton" href="browse.html">Browse</a>
+   <!--links to the browse page-->
+    <a class="navbutton" href="browse.html">Browse</a>
 
-     <!--links to the help page-->
-      <a class="navbutton" href="help.html">Help</a>
+   <!--links to the help page-->
+    <a class="navbutton" href="help.html">Help</a>
 
-     <!--links to the account page-->
-      <a class="navbutton" href="account.html">Account</a>
+   <!--links to the account page-->
+    <a class="navbutton" href="account.html">Account</a>
 
-    </div>     
+  </div>     
 </nav>
 
- 
+
+
 <body>
-    <h1>Nursing Podcasts</h1>
-    <div>
-        All podcasts about nursing found here!
-    </div>
-    <br>
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search nursing podcasts by name...">
-    <div style="overflow-x:auto;">
-        <table id="myTable">
-            <tr class="header">
-                <th style="width:20%;">Name</th>
-                <th style="width:20%;">Topic</th>
-                <th style="width:60%;">Description</th>
-            </tr>
-            <tr>
-                <td><a href = "https://open.spotify.com/show/09CT5kK0H3dVbETRIPJmLX?si=ZjaVAUIDThW7_n4vPjXbIg">Nursing Uncensored</td>
-                <td><a href = "nursing.html">Nursing</td>
-                <td>Nursing Uncensored is a series of conversations hosted by Adrianne Behning RN. This podcast opens up frank discussions about everything on the minds of nurses...</td>
-            </tr>
-            <tr>
-                <td><a href = "https://open.spotify.com/show/2BWYiDbWGw7cQP0KlcF19D?si=4sQcWJI8S_-gVAoyqWkedQ">Scissors N Scrubs</a></td>
-                <td><a href = "nursing.html">Nursing</td>
-                <td>A lively podcst telling stories everyone wants to hear about the shit nurses see. Told by two witty Boston nurses as only they can tell it</td>
-            </tr>
-        </table>
-    </div>
+  <h2>Browse Nursing Channels by Name</h2>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for nursing podcasts by name...">
+  <div style="overflow-x:auto;">
+      <table id="myTable" class="table table-hover row-clickable">
+          <tr class="header">
+              <th onclick="sortTable(0)" style="width:20%;">Name</th>
+              <th style="width:20%;">Topic</th>
+              <th style="width:60%;">Description</th>
+          </tr>
+          <tr>
+              <td><a href = "nursing-uncensored.html">Nursing Uncensored</td>
+              <td><a href = "nursing.html">Nursing</td>
+              <td>Nursing Uncensored is a series of conversations hosted by Adrianne Behning RN. This podcast opens up frank discussions about everything on the minds of nurses...</td>
+          </tr>
+          <tr>
+              <td><a href = "scissors-n-scrubs.html">Scissors N Scrubs</a></td>
+              <td><a href = "nursing.html">Nursing</td>
+              <td>A lively podcast telling stories everyone wants to hear about the shit nurses see. Told by two witty Boston nurses as only they can tell it</td>
+          </tr>
+          <tr>
+              <td><a href = "straight-a-nursing.html">Straight A Nursing</td>
+              <td><a href = "nursing.html">Nursing Students</td>
+              <td>blah blah</td>
+          </tr>
+      </table>
+  </div>
 </body>
 
 <script>
-    function myFunction() {
-      // Declare variables
-      var input, filter, table, tr, td, i, txtValue;
-      input = document.getElementById("myInput");
-      filter = input.value.toUpperCase();
-      table = document.getElementById("myTable");
-      tr = table.getElementsByTagName("tr");
-    
-      // Loop through all table rows, and hide those who don't match the search query
-      for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[1];
-        if (td) {
-          txtValue = td.textContent || td.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            tr[i].style.display = "";
-          } else {
-            tr[i].style.display = "none";
-          }
+  function myFunction() {
+    // Declare variables
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+  
+    // Loop through all table rows, and hide those who don't match the search query
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[1];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
         }
       }
     }
+  }
 </script>
