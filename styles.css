@@ -201,10 +201,9 @@ h1 {
 
   #myTable {
     border-collapse: collapse; /* Collapse borders */
-    width: 80%; /* Full-width */
+    width: 90%; /* Full-width */
     border: 1px solid #ddd; /* Add a grey border */
     font-size: 18px; /* Increase font-size */
-    padding: 20px;
   }
 
   #myTable th, #myTable td {
