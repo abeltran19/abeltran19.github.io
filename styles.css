@@ -19,16 +19,16 @@ h1 {
   border-color: 8px rgb(33, 104, 33);
   color: rgb(66, 66, 66);
   box-shadow: 0 8px 6px -6px gray;
-  padding: 10px;
+  padding: 6px;
   text-align: center;
   text-decoration: none;
   font-size: 24px;
-  margin-left: 2400px;
+  margin-left: 500px;
   margin-top: 10px;
   border-radius: 4px;
   display:block;
-  width: 100px;
-  height: 60px;
+  width: 110px;
+  height: 80px;
   font-weight: bold;
 }
 
