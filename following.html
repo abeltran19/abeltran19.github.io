@@ -34,40 +34,30 @@
     <p>Please log-in to to see your following list. If you have not followed any podcast channels, please head on over to the "Browse" to browse through the available podcast channels!</p>
 
 
-      <div class="container">
-        <h1 class="text-title">My Profile</h1>
-        <form style="display: none;" id="not-logged-in">
-          <div>
-            <label>What is your name?</label>
-            <input type="text" id="name">
-          </div>
-          <div>
-            <label>Please paste the URL to your image</label>
-            <input type="url" id="pic">
-          </div>
-          <div>
-            <label>Please select your role:</label>
-            <select id="role">
-              <option value="Patient">Patient</option>
-              <option value="Provider">Provider</option>
-              <option value="Producer">Producer</option>
-              <option value="Payer">Payer</option>
-            </select>
-          </div>
-          <div>
-            <input id="profile-submit" class="button-example" type="submit" value="Submit" />
-          </div>
-        </form>
-        <div style="display: none;" id="logged-in">
-          <h1>Profile</h1>
-          <img id="insert-pic-from-cookie" src="" />
-          <h3>Name</h3>
-          <p id="insert-name-from-cookie"></p>
-          <h3>Role</h3>
-          <p id="insert-role-from-cookie"></p>
-          <input id="delete-account" class="button-example-red" type="submit" value="Delete Account" />
-        </div>
+    <form action="action_page.php" method="post">
+      <div class="imgcontainer">
+        <img src="img_avatar2.png" alt="Avatar" class="avatar">
       </div>
+    
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+    
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+    
       <script>
         $('#profile-submit').click(function(){
           // Get inputs from profile form
