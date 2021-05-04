@@ -1,48 +1,111 @@
 <head>
-    <title>MediPod</title>
-    <link href="styles.css" rel="stylesheet"/>
+  <title>MediPod</title>
+  <link href="styles.css" rel="stylesheet"/>
 
-    <div>
-        <img src="https://cdn.discordapp.com/attachments/801195615358681148/832722595169173564/blackmoonrose13-professor-metapod.png" style="width:200;height:250">
-    </div>
-    <h1>MediPod</h1>
+  <div>
+      <img src="https://cdn.discordapp.com/attachments/801195615358681148/832722595169173564/blackmoonrose13-professor-metapod.png" style="width:200;height:250">
+  </div>
+  <h1>MediPod</h1>
 </head>
 
 <nav>
-    <!--This is the navigation bar buttons/links-->
-    <div class="navigationbar">
-    <!--links to the home page-->
-      <a class="navbutton" href="index.html">Home</a>
-           
-     <!--links to the following page-->
-      <a class="navbutton" href="following.html">Following</a>
+  <!--This is the navigation bar buttons/links-->
+  <div class="navigationbar">
+  <!--links to the home page-->
+    <a class="navbutton" href="index.html">Home</a>
+         
+   <!--links to the following page-->
+    <a class="navbutton" href="following.html">Following</a>
 
-     <!--links to the browse page-->
-      <a class="navbutton" href="browse.html">Browse</a>
+   <!--links to the browse page-->
+    <a class="navbutton" href="browse.html">Browse</a>
 
-     <!--links to the help page-->
-      <a class="navbutton" href="help.html">Help</a>
+   <!--links to the help page-->
+    <a class="navbutton" href="help.html">Help</a>
 
-     <!--links to the account page-->
-      <a class="navbutton" href="account.html">Account</a>
+   <!--links to the account page-->
+    <a class="navbutton" href="account.html">Account</a>
 
-    </div>     
-  </nav>
+  </div>     
+</nav>
 
-  <body>
-<!--This is the start of our browse page, where they can find different categories of podcasts-->
-    <h2>Neurology</h2>
-        <a target="_blank" href="episodepage.html">
-            <img src="https://wp.technologyreview.com/wp-content/uploads/2019/07/gettyimages-932729844arxivbrain-10.jpg" alt="Neurology" width="600" height="350">
-        </a>
 
-    <h2>Medical Technology</h2>
-        <a target="_blank" href="episodepage2.html">
-            <img src="https://www.qualitymag.com/ext/resources/Issues/2019/December/Medical/QM1219-FT-Software-p1FT-Medical_Devices.jpg?height=635&t=1576004501&width=1200" alt="Neurology" width="600" height="350">
-        </a>
-    
-    <h2> Test  4</h2>
-    </body>
 
-  <body>
-    
+<body>
+  <h2>Browse Podcast Channels by Topic</h2>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for podcasts by topic...">
+  <div style="overflow-x:auto;">
+      <table id="myTable" class="table table-hover row-clickable">
+          <tr class="header">
+              <th onclick="sortTable(0)" style="width:20%;">Name</th>
+              <th style="width:20%;">Topic</th>
+              <th style="width:60%;">Description</th>
+          </tr>
+          <tr>
+              <td><a href = "medgeeks.html">Medgeeks:Exam Review|Medicine</td>
+              <td><a href = "medical-school.html">Medical School</td>
+              <td>blah blah</td>
+          </tr>
+          <tr>
+              <td><a href = "medical-mysteries.html">Medical Mysteries</td>
+              <td><a href = "mystery.html">Mystery</td>
+              <td>blah blah</td>
+          </tr>
+          <tr>
+              <td><a href = "new-england-journal.html">New England Journal of Medicine Interviews</td>
+              <td><a href = "journal-review.html">Journal Review</td>
+              <td>blah blah</td>
+          </tr>
+          <tr>
+              <td><a href = "nursing-uncensored.html">Nursing Uncensored</td>
+              <td><a href = "nursing.html">Nursing</td>
+              <td>Nursing Uncensored is a series of conversations hosted by Adrianne Behning RN. This podcast opens up frank discussions about everything on the minds of nurses...</td>
+          </tr>
+          <tr>
+              <td><a href = "scissors-n-scrubs.html">Scissors N Scrubs</a></td>
+              <td><a href = "nursing.html">Nursing</td>
+              <td>A lively podcast telling stories everyone wants to hear about the shit nurses see. Told by two witty Boston nurses as only they can tell it</td>
+          </tr>
+          <tr>
+              <td><a href = "straight-a-nursing.html">Straight A Nursing</td>
+              <td><a href = "nursing-students.html">Nursing Students</td>
+              <td>blah blah</td>
+          </tr>
+          <tr>
+              <td><a href = "surgery101.html">Surgery 101</td>
+              <td><a href = "medical-school.html">Medical School</td>
+              <td>blah blah</td>
+          </tr>
+          <tr>
+              <td><a href = "surgery-talks.html">The Surgery Talks Podcast</td>
+              <td><a href  = "surgery.html">Surgery</td>
+              <td>blah blah</td>
+          </tr>
+      </table>
+  </div>
+</body>
+
+<script>
+  function myFunction() {
+    // Declare variables
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+  
+    // Loop through all table rows, and hide those who don't match the search query
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[1];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+</script>
+

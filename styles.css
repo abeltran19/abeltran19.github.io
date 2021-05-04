@@ -13,6 +13,120 @@ h1 {
   background-position: center;
 }
 
+.basics {
+  background-color: #89e215; 
+  border: none;
+  color: rgb(66, 66, 66);
+  box-shadow: 0 8px 6px -6px gray;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 60px;
+  border-radius: 4px;
+  display: block;
+  margin: 80px 80px 80px 80px;
+  width: 120px;
+  height: 120px;
+  font-weight: bold;
+  float:center; 
+}
+
+/*.faq {
+  background-color: #89e215; 
+  border: none;
+  color: rgb(66, 66, 66);
+  box-shadow: 0 8px 6px -6px gray;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 30px;
+  border-radius: 4px;
+  display: block;
+  margin: 20px 20px 20px 20px;
+  width: 60px;
+  height: 20px;
+  font-weight: bold;
+  float:left; 
+}
+
+.report {
+  background-color: #89e215; 
+  border: none;
+  color: rgb(66, 66, 66);
+  box-shadow: 0 8px 6px -6px gray;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 30px;
+  border-radius: 4px;
+  display: block;
+  margin: 20px 20px 20px 20px;
+  width: 60px;
+  height: 5px;
+  font-weight: bold;
+  float:left; 
+}
+
+.contact {
+  background-color: #89e215; 
+  border: none;
+  color: rgb(66, 66, 66);
+  box-shadow: 0 8px 6px -6px gray;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 30px;
+  border-radius: 4px;
+  display: block;
+  margin: 20px 20px 20px 20px;
+  width: 60px;
+  height: 50px;
+  font-weight: bold;
+  float:left; 
+}
+
+/*.articles {
+  background-color: #89e215; 
+  border: none;
+  color: rgb(66, 66, 66);
+  box-shadow: 0 8px 6px -6px gray;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 30px;
+  border-radius: 4px;
+  display: block;
+  margin: 20px 20px 20px 20px;
+  width: 60px;
+  height: 20px;
+  font-weight: bold;
+  float:right; 
+}
+
+.forum {
+  background-color: #89e215; 
+  border: none;
+  color: rgb(66, 66, 66);
+  box-shadow: 0 8px 6px -6px gray;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 30px;
+  border-radius: 4px;
+  display: block;
+  margin: 20px 20px 20px 20px;
+  width: 60px;
+  height: 20px;
+  font-weight: bold;
+  float:center; 
+}
+*/
 .navbutton {
     background-color: rgb(71, 204, 71);
     box-shadow: 0.2vw 0.25vw 0.4vw 0.25vw;
@@ -24,6 +138,7 @@ h1 {
     position: center;
     width: 9vw;
     margin: 1.5vw;
+    border-radius: 4px;
   }
   
   /*settings for when hover over nav button to turn it a bit darker*/
@@ -54,6 +169,7 @@ h1 {
     display: inline-block;
     font-size: 16px;
     margin: 30px;
+    border-radius: 4px;
   }
 
   .learnmore {
@@ -67,6 +183,7 @@ h1 {
     display: inline-block;
     font-size: 16px;
     margin: 30px;
+    border-radius: 4px;
   }
 
 
