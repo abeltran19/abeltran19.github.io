@@ -23,7 +23,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   font-size: 24px;
-  margin-left: 700px;
+  margin-left: 50%;
   margin-top: 20px;
   border-radius: 4px;
   display:block;
@@ -42,7 +42,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   font-size: 24px;
-  margin-left: 700px;
+  margin-left: 50%;
   margin-top: 70px;
   border-radius: 4px;
   display:block;
@@ -61,7 +61,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   font-size: 24px;
-  margin-left: 700px;
+  margin-left: 50%;
   margin-top: 85px;
   border-radius: 4px;
   display:block;
@@ -80,7 +80,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   font-size: 24px;
-  margin-left: 700px;
+  margin-left: 50%;
   margin-top: 95px;
   border-radius: 4px;
   display:block;
@@ -99,7 +99,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   font-size: 24px;
-  margin-left: 700px;
+  margin-left: 50%;
   margin-top: 100px;
   border-radius: 4px;
   display:block;
@@ -118,7 +118,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   font-size: 24px;
-  margin-left: 700px;
+  margin-left: 50%;
   margin-top: 105px;
   border-radius: 4px;
   display:block;
@@ -192,7 +192,7 @@ h1 {
   background-image: url('/css/searchicon.png'); /* Add a search icon to input */
   background-position: 10px 12px; /* Position the search icon */
   background-repeat: no-repeat; /* Do not repeat the icon image */
-  width: 100%; /* Full-width */
+  width: 30%; /* Full-width */
   font-size: 16px; /* Increase font-size */
   padding: 12px 20px 12px 40px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
@@ -201,7 +201,7 @@ h1 {
 
   #myTable {
     border-collapse: collapse; /* Collapse borders */
-    width: 100%; /* Full-width */
+    width: 75%; /* Full-width */
     border: 1px solid #ddd; /* Add a grey border */
     font-size: 18px; /* Increase font-size */
   }
