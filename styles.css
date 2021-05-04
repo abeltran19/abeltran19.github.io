@@ -21,10 +21,15 @@ h1 {
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin: 30px;
   border-radius: 4px;
+  display: block;
+  margin: 20px 20px 20px 20px;
+  width: 60px;
+  height: 20px;
+  font-weight: bold;
+  float:left; 
 }
 
 .navbutton {
