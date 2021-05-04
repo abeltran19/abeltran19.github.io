@@ -24,6 +24,9 @@ h1 {
   font-size: 16px;
   margin: 30px;
   border-radius: 4px;
+}
+
+.basics {
   display: block;
   margin: 20px 20px 20px 20px;
   width: 60px;
