@@ -21,18 +21,18 @@ h1 {
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
-  margin: 30px;
+  font-size: 48px;
+  margin: 60px;
   border-radius: 4px;
   display: block;
-  margin: 20px 20px 20px 20px;
-  width: 60px;
-  height: 20px;
+  margin: 80px 80px 80px 80px;
+  width: 80px;
+  height: 10px;
   font-weight: bold;
-  float:left; 
+  float:center; 
 }
 
-.faq {
+/*.faq {
   background-color: #89e215; 
   border: none;
   color: rgb(66, 66, 66);
@@ -89,7 +89,7 @@ h1 {
   float:left; 
 }
 
-.articles {
+/*.articles {
   background-color: #89e215; 
   border: none;
   color: rgb(66, 66, 66);
@@ -126,7 +126,7 @@ h1 {
   font-weight: bold;
   float:center; 
 }
-
+*/
 .navbutton {
     background-color: rgb(71, 204, 71);
     box-shadow: 0.2vw 0.25vw 0.4vw 0.25vw;
