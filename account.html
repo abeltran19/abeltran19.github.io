@@ -31,32 +31,115 @@
 
   <!--This is the start of our account page, where users can change account information-->
   <body>
-    <div class="container">
-      <h1 class="text-title">My Profile</h1>
-      <form style="display: none;" id="not-logged-in">
-        <div>
-          <label>What is your name?</label>
-          <input type="text" id="name">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container emp-profile">
+            <form method="post">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="profile-img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" alt=""/>
+                            <div class="file btn btn-lg btn-primary">
+                                Change Photo
+                                <input type="file" name="file"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="profile-head">
+                                    <h5>
+                                        Name
+                                    </h5>
+                                    <h6>
+                                        Profession
+                                    </h6>
+                                    <p class="proile-rating">Reviews : <span>Helpful</span></p>
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Timeline</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="profile-work">
+                            <p>WORK LINK</p>
+                            <a href="">LinkedIn</a><br/>
+                            <a href="">Hospital Profile</a><br/>
+                            <a href="">Work Profile</a>
+                            <p>SKILLS</p>
+                            <a href="">Skill 1</a><br/>
+                            <a href="">Skill 2</a><br/>
+                            <a href="">Skill 3</a><br/>
+                            <a href="">Skill 4</a><br/>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="tab-content profile-tab" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>User Id</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>username123</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Name</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Full Name Goes Here</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Email</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>username123@gmail.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Phone</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>123 456 7890</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Profession</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Profession Goes Here</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                          <div class="col-md-12">
+                                              <label>Your Bio</label><br/>
+                                              <p>Your detail description</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>           
         </div>
-        <div>
-          <label>Please paste the URL to your image</label>
-          <input type="url" id="pic">
-        </div>
-        <div>
-          <label>Please select your role:</label>
-          <select id="role">
-            <option value="Nurse">Nurse</option>
-            <option value="Physician">Physician</option>
-            <option value="Industry Worker">Industry Worker</option>
-            <option value="Technician">Hospital Technician</option>
-            <option value="Administrator">Hospital Administrator</option>
-            <option value="Other">Other</option>
-          </select>
-        </div>
-        <div>
-          <input id="profile-submit" class="button-example" type="submit" value="Submit" />
-        </div>
-      </form>
-    </div>
   </body>
   
