@@ -41,9 +41,9 @@ h1 {
   text-decoration: none;
   font-size: 32px;
   border-radius: 20%;
-  
+  text-align: center;
   width: 180px;
-  height: 125px;
+  height: 105px;
   font-weight: bold;
 }
 
@@ -57,7 +57,7 @@ h1 {
   text-decoration: none;
   font-size: 32px;
   border-radius: 20%;
-  
+  text-align: center;
   width: 180px;
   height: 125px;
   font-weight: bold;
@@ -78,6 +78,7 @@ h1 {
   height: 105px;
   font-weight: bold;
   will-change: transform;
+  text-align: center;
 }
 
 .contact {
@@ -90,7 +91,7 @@ h1 {
   text-decoration: none;
   font-size: 32px;
   border-radius: 20%;
-  
+  text-align: center;
   width: 180px;
   height: 105px;
   font-weight: bold;
@@ -106,7 +107,7 @@ h1 {
   text-decoration: none;
   font-size: 32px;
   border-radius: 20%;
-  
+  text-align: center;
   width: 180px;
   height: 105px;
   font-weight: bold;
@@ -122,9 +123,9 @@ h1 {
   text-decoration: none;
   font-size: 32px;
   border-radius: 20%;
-  
+  text-align: center;
   width: 180px;
-  height: 105px;
+  height: 95px;
   font-weight: bold;
 }
 
