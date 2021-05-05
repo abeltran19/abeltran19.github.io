@@ -1,6 +1,8 @@
 <head>
     <title>MediPod</title>
     <link href="styles.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="all.css" />
 
     <div class='metapod'>
         <img src="https://cdn.discordapp.com/attachments/801195615358681148/832722595169173564/blackmoonrose13-professor-metapod.png" style="width:200;height:250">
@@ -48,6 +50,34 @@
     <div>
         <iframe src="https://open.spotify.com/embed-podcast/episode/0FRsT1RV7GPECbwrBRyaFd" width="auto" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
-
+    <div class="col-md-3"></div>
+	<div class="col-md-6 well">
+		<h3 class="text-primary">Scissors N Scrubs Review </h3>
+		<hr style="border-top:1px dotted #ccc;"/>
+		<div class="col-md-4">
+			<div class="form-group">
+				<label>User:</label>
+				<input type="text" id="user" class="form-control" />
+			</div>
+			<div>
+				<h3>Rating:</h3>
+				<span id="1" style="font-size:30px; cursor:pointer;"  class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)" ></span>
+				<span id="2"  style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+				<span id="3"  style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+				<span id="4"  style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+				<span id="5"  style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+			</div>
+			<br />
+			<div class="form-group">
+				<h3>Review:</h3>
+				<textarea id="review" class="form-control" style="resize:none; height:100px;"></textarea>
+			</div>
+			<center><button class="btn btn-success" onclick="submitRate()">Submit</button></center>
+		</div>
+		<div class="col-md-6">
+			<div id="result"></div>
+		</div>
+	</div>
+<script src="js/script.js"></script>
 
 </body>
