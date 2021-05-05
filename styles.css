@@ -19,108 +19,89 @@ h1 {
   border-color: 2px rgb(33, 104, 33);
   color: rgb(66, 66, 66);
   box-shadow: 0 8px 6px -6px gray;
-  
-  display:grid;
+  display:block;
   text-decoration: none;
-  
   font-size: 36px;
   border-radius: 50%;
-  
   width: 160px;
   height: 135px;
   font-weight: bold;
-  
 }
 
-/*.faq {
+.faq {
   background-color: #89e215; 
-  border-left-style: solid;
-  border-color: 16px rgb(33, 104, 33);
+  border-style: solid;
+  border-color: 2px rgb(33, 104, 33);
   color: rgb(66, 66, 66);
   box-shadow: 0 8px 6px -6px gray;
-  padding: 6px;
-  text-align: center;
+  display:block;
   text-decoration: none;
   font-size: 36px;
-  margin: auto;
-  border-radius: 4px;
-  display:block;
-  width: 170px;
-  height: 130px;
+  border-radius: 50%;
+  width: 160px;
+  height: 135px;
   font-weight: bold;
 }
 
 .report {
   background-color: #89e215; 
-  border-left-style: solid;
-  border-color: 16px rgb(33, 104, 33);
+  border-style: solid;
+  border-color: 2px rgb(33, 104, 33);
   color: rgb(66, 66, 66);
   box-shadow: 0 8px 6px -6px gray;
-  padding: 6px;
-  text-align: center;
+  display:block;
   text-decoration: none;
   font-size: 36px;
-  margin: auto;
-  border-radius: 4px;
-  display:block;
+  border-radius: 50%;
   width: 160px;
-  height: 100px;
+  height: 135px;
   font-weight: bold;
 }
 
 .contact {
   background-color: #89e215; 
-  border-left-style: solid;
-  border-color: 16px rgb(33, 104, 33);
+  border-style: solid;
+  border-color: 2px rgb(33, 104, 33);
   color: rgb(66, 66, 66);
   box-shadow: 0 8px 6px -6px gray;
-  padding: 6px;
-  text-align: center;
+  display:block;
   text-decoration: none;
   font-size: 36px;
-  margin: auto;
-  border-radius: 4px;
-  display:block;
+  border-radius: 50%;
   width: 160px;
-  height: 120px;;
+  height: 135px;
   font-weight: bold;
 }
 
 .articles {
- background-color: #89e215; 
-  border-left-style: solid;
-  border-color: 16px rgb(33, 104, 33);
+  background-color: #89e215; 
+  border-style: solid;
+  border-color: 2px rgb(33, 104, 33);
   color: rgb(66, 66, 66);
   box-shadow: 0 8px 6px -6px gray;
-  padding: 6px;
-  text-align: center;
+  display:block;
   text-decoration: none;
   font-size: 36px;
-  margin: auto;
-  border-radius: 4px;
-  display:block;
+  border-radius: 50%;
   width: 160px;
-  height: 100px;
-  font-weight: bold; 
+  height: 135px;
+  font-weight: bold;
 }
 
 .forum {
-  background-color: #89e215; 
-  border-left-style: solid;
-  border-color: 16px rgb(33, 104, 33);
+   background-color: #89e215; 
+  border-style: solid;
+  border-color: 2px rgb(33, 104, 33);
   color: rgb(66, 66, 66);
   box-shadow: 0 8px 6px -6px gray;
-  padding: 6px;
-  text-align: center;
+  display:block;
   text-decoration: none;
   font-size: 36px;
-  margin: auto;
-  border-radius: 4px;
-  display:block;
+  border-radius: 50%;
   width: 160px;
-  height: 100px;
+  height: 135px;
   font-weight: bold;
-}*/
+}
 
 .navbutton {
     background-color: rgb(71, 204, 71);
