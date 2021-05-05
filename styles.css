@@ -20,19 +20,19 @@ h1 {
   color: rgb(66, 66, 66);
   box-shadow: 0 8px 6px -6px gray;
   padding: 6px;
-  text-align: center;
+  
   text-decoration: none;
-  align-items:center;
+  
   font-size: 36px;
   border-radius: 4px;
-  display:block;
+  
   width: 160px;
   height: 135px;
   font-weight: bold;
-  margin: auto;
+  
 }
 
-.faq {
+/*.faq {
   background-color: #89e215; 
   border-left-style: solid;
   border-color: 16px rgb(33, 104, 33);
@@ -120,7 +120,7 @@ h1 {
   width: 160px;
   height: 100px;
   font-weight: bold;
-}
+}*/
 
 .navbutton {
     background-color: rgb(71, 204, 71);
