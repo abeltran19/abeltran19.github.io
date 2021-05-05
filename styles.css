@@ -75,7 +75,7 @@ h1 {
   border-radius: 20%;
   overflow: hidden;
   width: 180px;
-  height: 105px;
+  height: 95px;
   font-weight: bold;
   will-change: transform;
   text-align: center;
@@ -125,7 +125,7 @@ h1 {
   border-radius: 20%;
   text-align: center;
   width: 180px;
-  height: 95px;
+  height: 75px;
   font-weight: bold;
 }
 
