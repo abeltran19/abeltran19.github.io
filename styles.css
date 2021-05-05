@@ -27,8 +27,8 @@ h1 {
 
 .helpbuttons{
   column-count: 2;
-  column-gap: 50px;
-  margin-left:35%;
+  column-gap: 25px;
+  margin-left:25%;
 }
 
 .basics {
