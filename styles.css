@@ -20,7 +20,7 @@ h1 {
   color: rgb(66, 66, 66);
   box-shadow: 0 8px 6px -6px gray;
   padding: 6px;
-  
+  display:grid;
   text-decoration: none;
   
   font-size: 36px;
