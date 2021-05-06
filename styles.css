@@ -18,7 +18,7 @@ h1 {
 }
 
 .metapod {
-  position: absolute;
+  position: block;
   margin-top: 7%;
   margin-right: auto;
 }
