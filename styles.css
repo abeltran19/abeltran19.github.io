@@ -27,7 +27,7 @@ h1 {
 
 .helpbuttons{
   column-count: 2;
-  column-gap: 25px;
+  column-gap: 0px;
   margin-left:25%;
 }
 
@@ -333,7 +333,7 @@ form {
 
 /* Full-width inputs */
 input[type=text], input[type=password] {
-  width: 100%;
+  width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
