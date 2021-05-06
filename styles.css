@@ -21,6 +21,8 @@ h1 {
   position: block;
   margin-top: 7%;
   margin-right: auto;
+  pointer-events:none;
+  z-index: 100px;
 }
 
 .helpbuttons{
