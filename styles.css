@@ -161,7 +161,7 @@ h1 {
   
   
   .getstarted {
-    background-color: #89e215; 
+    background-color: rgb(71, 204, 71); 
     border: none;
     color: rgb(66, 66, 66);
     box-shadow: 0 8px 6px -6px gray;
@@ -172,13 +172,14 @@ h1 {
     font-size: 16px;
     margin: 30px;
     border-radius: 4px;
+    margin-left: 45%
   }
 
   .learnmore {
-    background-color: #89e215; 
+    background-color: rgb(71, 204, 71); 
     border: none;
     color: rgb(66, 66, 66);
-    box-shadow: 0 8px 6px -6px gray;
+    box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -186,6 +187,7 @@ h1 {
     font-size: 16px;
     margin: 30px;
     border-radius: 4px;
+    margin-left: 55%
   }
 
 
