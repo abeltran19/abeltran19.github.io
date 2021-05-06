@@ -19,7 +19,7 @@ h1 {
 
 .metapod {
   position: absolute;
-  z-index: 10px;
+  z-index: 30px;
   margin-right: auto;
 }
 
