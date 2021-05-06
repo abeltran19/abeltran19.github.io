@@ -21,8 +21,9 @@ h1 {
   position: absolute;
   z-index: 10px;
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 10px;
+  height: 10px;
+  float: left;
 }
 
 .helpbuttons{
@@ -164,11 +165,11 @@ h1 {
     background-color: rgb(71, 204, 71); 
     border: none;
     color: rgb(66, 66, 66);
-    box-shadow: 0 8px 6px -6px gray;
+    box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: none;
     font-size: 16px;
     margin: 30px;
     border-radius: 4px;
@@ -183,7 +184,7 @@ h1 {
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: non ;
     font-size: 16px;
     margin: 30px;
     border-radius: 4px;
