@@ -168,7 +168,7 @@ h1 {
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    display: none;
+    display: inline-block;
     font-size: 16px;
     margin: 30px;
     border-radius: 4px;
@@ -183,7 +183,7 @@ h1 {
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    display: non ;
+    display: inline-block;
     font-size: 16px;
     margin: 30px;
     border-radius: 4px;
