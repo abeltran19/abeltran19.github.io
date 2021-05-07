@@ -19,10 +19,13 @@ h1 {
 
 .metapod {
   position: block;
-  
+  object-fit:contain;
   margin-right: auto;
   pointer-events:none;
   z-index: 10px;
+  width:200px;
+  height:200px;
+  margin: top 35%;
   
 
 }
