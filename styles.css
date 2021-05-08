@@ -162,7 +162,7 @@ h1 {
     text-decoration: none;
     display: block;
     font-size: 16px;
-   
+    width: 8%;
     border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
@@ -178,7 +178,7 @@ h1 {
     text-decoration: none;
     display: block;
     font-size: 16px;
-    
+    width: 8%;
     border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
@@ -219,7 +219,7 @@ h1 {
     background-color: #f1f1f1;
   }
   body{
-    background: -webkit-linear-gradient(left, #05832f, #20df8f);
+    background: -webkit-linear-gradient(left, #000000, #039658);
 }
 .emp-profile{
     padding: 3%;
