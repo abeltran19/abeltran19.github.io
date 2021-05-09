@@ -379,6 +379,11 @@ img.avatar {
 }
 
 /* Add padding to containers */
+.fcontainer {
+  padding: 16px;
+  color: white
+}
+
 .container {
   padding: 16px;
 }
