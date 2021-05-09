@@ -1,13 +1,15 @@
-h1 {
+.h1 {
   text-align: center;
+  color: rgb(255, 255, 255);
   text-decoration: rgb(71, 204, 71);
   font-size: 56px;
   font-family: cursive;
   padding: 20px;
   text-decoration-style: wavy;
   text-shadow: 2px 2px #000000
-
+  
 }
+
 
 .body{
   width: 100%;
@@ -17,25 +19,17 @@ h1 {
 
 }
 
-.metapod {
-  position: absolute;
-  z-index: 10px;
-  display: block;
-  width: 125px;
-  height: 125px;
-}
-
 .helpbuttons{
   column-count: 2;
-  column-gap: 50px;
-  margin-left:35%;
+  column-gap: 0px;
+  margin-left:25%;
 }
 
 .basics {
-  background-color: #89e215; 
+  background-color: #13a700; 
   border-style: solid;
-  border-color: 2px rgb(33, 104, 33);
-  color: rgb(66, 66, 66);
+  border-color: 2px rgb(192, 250, 192);
+  color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
@@ -48,10 +42,10 @@ h1 {
 }
 
 .faq {
-  background-color: #89e215; 
+  background-color: #13a700; 
   border-style: solid;
-  border-color: 2px rgb(33, 104, 33);
-  color: rgb(66, 66, 66);
+  border-color: 2px rgb(192, 250, 192);
+  color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
@@ -64,10 +58,10 @@ h1 {
 }
 
 .report {
-  background-color: #89e215; 
+  background-color: #13a700; 
   border-style: solid;
-  border-color: 2px rgb(33, 104, 33);
-  color: rgb(66, 66, 66);
+  border-color: 2px rgb(192, 250, 192);
+  color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
@@ -82,10 +76,10 @@ h1 {
 }
 
 .contact {
-  background-color: #89e215; 
+  background-color: #13a700; 
   border-style: solid;
-  border-color: 2px rgb(33, 104, 33);
-  color: rgb(66, 66, 66);
+  border-color: 2px rgb(192, 250, 192);
+  color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
@@ -98,10 +92,10 @@ h1 {
 }
 
 .articles {
-  background-color: #89e215; 
+  background-color: #13a700; 
   border-style: solid;
-  border-color: 2px rgb(33, 104, 33);
-  color: rgb(66, 66, 66);
+  border-color: 2px rgb(192, 250, 192);
+  color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
@@ -114,10 +108,10 @@ h1 {
 }
 
 .forum {
-   background-color: #89e215; 
+  background-color: #13a700; 
   border-style: solid;
-  border-color: 2px rgb(33, 104, 33);
-  color: rgb(66, 66, 66);
+  border-color: 2px rgb(192, 250, 192);
+  color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
@@ -130,7 +124,7 @@ h1 {
 }
 
 .navbutton {
-    background-color: rgb(71, 204, 71);
+    background-color: rgb(9, 168, 9);
     box-shadow: 0.2vw 0.25vw 0.4vw 0.25vw;
     color: white;
     padding: 1vw;
@@ -152,7 +146,7 @@ h1 {
   
   /*background for navigation bar*/
   .navigationbar {
-    background-color: rgb(111, 242, 111);
+    background-color: rgb(3, 194, 3);
     box-shadow: 0 8px 6px -6px gray;
     padding: 2vw 1.5vw;
     width: 100%;
@@ -161,31 +155,35 @@ h1 {
   
   
   .getstarted {
-    background-color: #89e215; 
-    border: none;
-    color: rgb(66, 66, 66);
-    box-shadow: 0 8px 6px -6px gray;
-    padding: 10px;
+    background-color: rgb(11, 129, 11); 
+    border: 1px rgb(177, 247, 168);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 8px 6px -6px rgb(144, 255, 130);
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
-    margin: 30px;
+    width: 8%;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .learnmore {
-    background-color: #89e215; 
-    border: none;
-    color: rgb(66, 66, 66);
-    box-shadow: 0 8px 6px -6px gray;
-    padding: 10px;
+    background-color: rgb(11, 129, 11); 
+    border: 1px rgb(177, 247, 168);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 8px 6px -6px rgb(144, 255, 130);
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
-    margin: 30px;
+    width: 8%;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -195,6 +193,7 @@ h1 {
   background-position: 10px 12px; /* Position the search icon */
   background-repeat: no-repeat; /* Do not repeat the icon image */
   width: 30%; /* Full-width */
+  color:white;
   font-size: 16px; /* Increase font-size */
   padding: 12px 20px 12px 40px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
@@ -203,27 +202,30 @@ h1 {
 
   #myTable {
     border-collapse: collapse; /* Collapse borders */
-    width:100%; /* Full-width */
-    border: 1px solid #ddd; /* Add a grey border */
+    width:95%; /* Full-width */
+    color:white;
+    border: 2px solid #ddd; /* Add a grey border */
     font-size: 18px; /* Increase font-size */
   }
 
   #myTable th, #myTable td {
-    text-align: left; /* Left-align text */
+    text-align: left;
+    color:white; /* Left-align text */
     padding: 12px; /* Add padding */
   }
 
   #myTable tr {
     /* Add a bottom border to all table rows */
     border-bottom: 1px solid #ddd;
+    color:white;
   }
 
   #myTable tr.header, #myTable tr:hover {
     /* Add a grey background color to the table header and on hover */
-    background-color: #f1f1f1;
+    background-color: #46ac0c;
   }
   body{
-    background: -webkit-linear-gradient(left, #05832f, #20df8f);
+    background: -webkit-linear-gradient(left, #000000, #039658);
 }
 .emp-profile{
     padding: 3%;
@@ -322,7 +324,7 @@ h1 {
 /*to make links not have underline unless hovered on or clicked*/
 a:link { text-decoration: none; color:inherit;}
 a:visited { text-decoration: none; color:inherit; }
-a:hover { text-decoration: underline; color:inherit;}
+a:hover { text-decoration: underline; color:black;}
 a:active { text-decoration: underline; color:inherit; }
 
 
@@ -333,7 +335,7 @@ form {
 
 /* Full-width inputs */
 input[type=text], input[type=password] {
-  width: 100%;
+  width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -349,7 +351,7 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 80%;
 }
 
 /* Add a hover effect for buttons */
@@ -394,6 +396,6 @@ span.psw {
     float: none;
   }
   .cancelbtn {
-    width: 100%;
+    width: 800%;
   }
 }
