@@ -324,7 +324,7 @@
 /*to make links not have underline unless hovered on or clicked*/
 a:link { text-decoration: none; color:inherit;}
 a:visited { text-decoration: none; color:inherit; }
-a:hover { text-decoration: underline; color:inherit;}
+a:hover { text-decoration: underline; color:black;}
 a:active { text-decoration: underline; color:inherit; }
 
 
