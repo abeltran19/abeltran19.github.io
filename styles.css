@@ -10,6 +10,22 @@ h1 {
   
 }
 
+.h2 {
+  color:white;
+}
+
+.p {
+  color:white;
+}
+
+.p2 {
+  color:white;
+}
+
+.p3 {
+  color:white;
+}
+
 .body{
   width: 100%;
   height: 100%;
@@ -192,6 +208,7 @@ h1 {
   background-position: 10px 12px; /* Position the search icon */
   background-repeat: no-repeat; /* Do not repeat the icon image */
   width: 30%; /* Full-width */
+  color:white;
   font-size: 16px; /* Increase font-size */
   padding: 12px 20px 12px 40px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
@@ -201,18 +218,21 @@ h1 {
   #myTable {
     border-collapse: collapse; /* Collapse borders */
     width:95%; /* Full-width */
+    color:white;
     border: 2px solid #ddd; /* Add a grey border */
     font-size: 18px; /* Increase font-size */
   }
 
   #myTable th, #myTable td {
-    text-align: left; /* Left-align text */
+    text-align: left;
+    color:white; /* Left-align text */
     padding: 12px; /* Add padding */
   }
 
   #myTable tr {
     /* Add a bottom border to all table rows */
     border-bottom: 1px solid #ddd;
+    color:white;
   }
 
   #myTable tr.header, #myTable tr:hover {
