@@ -1,4 +1,4 @@
-h1 {
+#h1 {
   text-align: center;
   color: rgb(255, 255, 255);
   text-decoration: rgb(71, 204, 71);
@@ -10,19 +10,19 @@ h1 {
   
 }
 
-.h2 {
+#h2 {
   color:white;
 }
 
-.p {
+#p {
   color:white;
 }
 
-.p2 {
+#p2 {
   color:white;
 }
 
-.p3 {
+#p3 {
   color:white;
 }
 
