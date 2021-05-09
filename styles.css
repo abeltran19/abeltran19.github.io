@@ -1,12 +1,13 @@
 h1 {
   text-align: center;
+  color: rgb(255, 255, 255);
   text-decoration: rgb(71, 204, 71);
   font-size: 56px;
   font-family: cursive;
   padding: 20px;
   text-decoration-style: wavy;
   text-shadow: 2px 2px #000000
-
+  
 }
 
 .body{
@@ -24,10 +25,10 @@ h1 {
 }
 
 .basics {
-  background-color: #89e215; 
+  background-color: #13a700; 
   border-style: solid;
-  border-color: 2px rgb(33, 104, 33);
-  color: rgb(66, 66, 66);
+  border-color: 2px rgb(192, 250, 192);
+  color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
@@ -40,10 +41,10 @@ h1 {
 }
 
 .faq {
-  background-color: #89e215; 
+  background-color: #13a700; 
   border-style: solid;
-  border-color: 2px rgb(33, 104, 33);
-  color: rgb(66, 66, 66);
+  border-color: 2px rgb(192, 250, 192);
+  color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
@@ -56,10 +57,10 @@ h1 {
 }
 
 .report {
-  background-color: #89e215; 
+  background-color: #13a700; 
   border-style: solid;
-  border-color: 2px rgb(33, 104, 33);
-  color: rgb(66, 66, 66);
+  border-color: 2px rgb(192, 250, 192);
+  color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
@@ -74,10 +75,10 @@ h1 {
 }
 
 .contact {
-  background-color: #89e215; 
+  background-color: #13a700; 
   border-style: solid;
-  border-color: 2px rgb(33, 104, 33);
-  color: rgb(66, 66, 66);
+  border-color: 2px rgb(192, 250, 192);
+  color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
@@ -90,10 +91,10 @@ h1 {
 }
 
 .articles {
-  background-color: #89e215; 
+  background-color: #13a700; 
   border-style: solid;
-  border-color: 2px rgb(33, 104, 33);
-  color: rgb(66, 66, 66);
+  border-color: 2px rgb(192, 250, 192);
+  color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
@@ -106,10 +107,10 @@ h1 {
 }
 
 .forum {
-   background-color: #89e215; 
+  background-color: #13a700; 
   border-style: solid;
-  border-color: 2px rgb(33, 104, 33);
-  color: rgb(66, 66, 66);
+  border-color: 2px rgb(192, 250, 192);
+  color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
@@ -122,7 +123,7 @@ h1 {
 }
 
 .navbutton {
-    background-color: rgb(71, 204, 71);
+    background-color: rgb(9, 168, 9);
     box-shadow: 0.2vw 0.25vw 0.4vw 0.25vw;
     color: white;
     padding: 1vw;
@@ -144,7 +145,7 @@ h1 {
   
   /*background for navigation bar*/
   .navigationbar {
-    background-color: rgb(111, 242, 111);
+    background-color: rgb(3, 194, 3);
     box-shadow: 0 8px 6px -6px gray;
     padding: 2vw 1.5vw;
     width: 100%;
@@ -153,10 +154,10 @@ h1 {
   
   
   .getstarted {
-    background-color: rgb(71, 204, 71); 
-    border: none;
-    color: rgb(66, 66, 66);
-    box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+    background-color: rgb(11, 129, 11); 
+    border: 1px rgb(177, 247, 168);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 8px 6px -6px rgb(144, 255, 130);
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
@@ -169,10 +170,10 @@ h1 {
   }
 
   .learnmore {
-    background-color: rgb(71, 204, 71); 
-    border: none;
-    color: rgb(66, 66, 66);
-    box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+    background-color: rgb(11, 129, 11); 
+    border: 1px rgb(177, 247, 168);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 8px 6px -6px rgb(144, 255, 130);
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
