@@ -184,12 +184,14 @@
     margin-left: 40%;
   }
 
-  .section1 {
+  section {
     float: left;
+    width: 40%;
   }
 
-  .section2 {
+  aside {
     float: right;
+    width: 50%;
   }
 
 
