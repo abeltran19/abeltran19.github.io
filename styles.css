@@ -222,7 +222,7 @@
 
   #myTable tr.header, #myTable tr:hover {
     /* Add a grey background color to the table header and on hover */
-    background-color: #f1f1f1;
+    background-color: #46ac0c;
   }
   body{
     background: -webkit-linear-gradient(left, #000000, #039658);
