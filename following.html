@@ -31,40 +31,45 @@
   </nav>
 
   <body>
-    <!--This is the start of our following page, showing the user the podcasts they want to follow-->
-    <h3 style="color: white">Please log-in to to see your following list. <br />
-      If you have not followed any podcast channels, please head on over to the <a href="browse.html"><b>"Browse"</b></a> to browse through the available podcast channels!</h3>
+    <div id="page-container">
+      <div id="content-wrap">
+
+        <!--This is the start of our following page, showing the user the podcasts they want to follow-->
+        <h3 style="color: white">Please log-in to to see your following list. <br />
+          If you have not followed any podcast channels, please head on over to the <a href="browse.html"><b>"Browse"</b></a> to browse through the available podcast channels!</h3>
 
 
-    <form action="action_page.php" method="post">
-      <div class="imgcontainer">
-        <img src="Avatar.jpg" alt="Avatar" class="avatar" style="width:200;height:250">
+        <form action="action_page.php" method="post">
+          <div class="imgcontainer">
+            <img src="Avatar.jpg" alt="Avatar" class="avatar" style="width:200;height:250">
+          </div>
+        
+          <div class="fcontainer">
+            <label for="uname" style=color:white><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required id ="uname">
+            <br />
+            <label for="psw" style=color:white><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required id="psw"  >
+            <br />
+            <input id="profile-submit" class="button-example" type="submit" value="Login"/>
+            <label style=color:white>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+        
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw"><a href="#">Forgot password?</a></span>
+          </div>
+        </form>
       </div>
-    
-      <div class="fcontainer">
-        <label for="uname" style=color:white><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required id ="uname">
-        <br />
-        <label for="psw" style=color:white><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required id="psw"  >
-        <br />
-        <input id="profile-submit" class="button-example" type="submit" value="Login"/>
-        <label style=color:white>
-          <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
-      </div>
-    
-      <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn">Cancel</button>
-        <span class="psw"><a href="#">Forgot password?</a></span>
-      </div>
-    </form>
 
-  <footer>
-      <p>MediPod </br>
-      Copyright © 2021</br>
-      Made By: Angelo Beltran, John Gomez, Tristan Jaeger</p>
-  </footer>
+      <footer id="footer">
+        <p>MediPod </br>
+        Copyright © 2021</br>
+        Made By: Angelo Beltran, John Gomez, Tristan Jaeger</p>
+      </footer>
+    </div>
 
       <script>
         $('#profile-submit').click(function(){
