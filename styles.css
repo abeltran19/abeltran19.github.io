@@ -1,15 +1,3 @@
-.h1 {
-  text-align: center;
-  color: rgb(255, 255, 255);
-  text-decoration: rgb(71, 204, 71);
-  font-size: 56px;
-  font-family: cursive;
-  padding: 20px;
-  text-decoration-style: wavy;
-  text-shadow: 2px 2px #000000
-  
-}
-
 
 .body{
   width: 100%;
@@ -20,37 +8,38 @@
 }
 
 .helpbuttons{
-  column-count: 2;
-  column-gap: 0px;
-  margin-left:25%;
+  
+  margin-top: 6%;
+  margin-left: 8%;
 }
 
 .basics {
   background-color: rgb(11, 129, 11); 
-  
+  text-align: center;
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
-  display:block;
+  padding: 8px;
   text-decoration: none;
   font-size: 24px;
-  border-radius: 20%;
-  text-align: center;
+  border-radius: 4px;
+  
   width: 180px;
   height: 105px;
   font-weight: bold;
-  padding: center;
+  
 }
 
 .faq {
   background-color: rgb(11, 129, 11); 
-  padding: center;
+  text-align: center;
+  padding: 8px;
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
-  display:block;
+  
   text-decoration: none;
   font-size: 24px;
-  border-radius: 20%;
-  text-align: center;
+  border-radius: 4px;
+  
   width: 180px;
   height: 125px;
   font-weight: bold;
@@ -58,31 +47,32 @@
 
 .report {
   background-color: rgb(11, 129, 11); 
-  padding: center;
+  text-align: center;
+  padding: 8px;
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
-  display:block;
+  
   text-decoration: none;
   font-size: 24px;
-  border-radius: 20%;
+  border-radius: 4px;
   overflow: hidden;
   width: 180px;
   height: 95px;
   font-weight: bold;
-  will-change: transform;
-  text-align: center;
+  
+  
 }
 
 .contact {
   background-color: rgb(11, 129, 11); 
-  padding: center;
+  text-align: center;
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
-  display:block;
+  
   text-decoration: none;
   font-size: 24px;
-  border-radius: 20%;
-  text-align: center;
+  border-radius: 4px;
+  padding: 8px;
   width: 180px;
   height: 105px;
   font-weight: bold;
@@ -90,14 +80,14 @@
 
 .articles {
   background-color: rgb(11, 129, 11); 
-  padding: center;
+  text-align: center;
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
-  display:block;
+  
   text-decoration: none;
   font-size: 24px;
-  border-radius: 20%;
-  text-align: center;
+  border-radius: 4px;
+  padding: 8px;
   width: 180px;
   height: 105px;
   font-weight: bold;
@@ -105,14 +95,14 @@
 
 .forum {
   background-color: rgb(11, 129, 11); 
-  padding: center;
+  text-align: center;
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
-  display:block;
+  
   text-decoration: none;
   font-size: 24px;
-  border-radius: 20%;
-  text-align: center;
+  border-radius: 4px;
+  padding: 8px;
   width: 180px;
   height: 75px;
   font-weight: bold;
@@ -144,7 +134,7 @@
     background-color: rgb(3, 194, 3);
     box-shadow: 0 8px 6px -6px gray;
     padding: 2vw 1.5vw;
-    width: 100%;
+    width: 96.9%;
     text-align: center;
   }
   
@@ -196,7 +186,7 @@
   background-position: 10px 12px; /* Position the search icon */
   background-repeat: no-repeat; /* Do not repeat the icon image */
   width: 30%; /* Full-width */
-  color:white;
+  color:rgb(0, 0, 0);
   font-size: 16px; /* Increase font-size */
   padding: 12px 20px 12px 40px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
@@ -255,6 +245,7 @@ body{
   color: white;
 }
 
+/* Profile Codes */
 .emp-profile{
     padding: 3%;
     margin-top: 3%;
@@ -348,6 +339,7 @@ body{
     color: #0062cc;
 }
 
+/* Profile Code Ends */
 
 /*to make links not have underline unless hovered on or clicked*/
 a:link { text-decoration: none; color:inherit;}
