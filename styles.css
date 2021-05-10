@@ -38,11 +38,12 @@
   width: 180px;
   height: 105px;
   font-weight: bold;
+  padding: center;
 }
 
 .faq {
   background-color: rgb(11, 129, 11); 
-  
+  padding: center;
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
@@ -57,7 +58,7 @@
 
 .report {
   background-color: rgb(11, 129, 11); 
-  
+  padding: center;
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
@@ -74,7 +75,7 @@
 
 .contact {
   background-color: rgb(11, 129, 11); 
-  
+  padding: center;
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
@@ -89,7 +90,7 @@
 
 .articles {
   background-color: rgb(11, 129, 11); 
-  
+  padding: center;
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
@@ -104,7 +105,7 @@
 
 .forum {
   background-color: rgb(11, 129, 11); 
-  
+  padding: center;
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
