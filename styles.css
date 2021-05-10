@@ -26,14 +26,13 @@
 }
 
 .basics {
-  background-color: #13a700; 
-  border-style: solid;
-  border-color: 2px rgb(192, 250, 192);
+  background-color: rgb(11, 129, 11); 
+  
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
-  font-size: 32px;
+  font-size: 16px;
   border-radius: 20%;
   text-align: center;
   width: 180px;
@@ -42,14 +41,13 @@
 }
 
 .faq {
-  background-color: #13a700; 
-  border-style: solid;
-  border-color: 2px rgb(192, 250, 192);
+  background-color: rgb(11, 129, 11); 
+  
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
-  font-size: 32px;
+  font-size: 16px;
   border-radius: 20%;
   text-align: center;
   width: 180px;
@@ -58,14 +56,13 @@
 }
 
 .report {
-  background-color: #13a700; 
-  border-style: solid;
-  border-color: 2px rgb(192, 250, 192);
+  background-color: rgb(11, 129, 11); 
+  
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
-  font-size: 32px;
+  font-size: 16px;
   border-radius: 20%;
   overflow: hidden;
   width: 180px;
@@ -76,14 +73,13 @@
 }
 
 .contact {
-  background-color: #13a700; 
-  border-style: solid;
-  border-color: 2px rgb(192, 250, 192);
+  background-color: rgb(11, 129, 11); 
+  
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
-  font-size: 32px;
+  font-size: 16px;
   border-radius: 20%;
   text-align: center;
   width: 180px;
@@ -92,14 +88,13 @@
 }
 
 .articles {
-  background-color: #13a700; 
-  border-style: solid;
-  border-color: 2px rgb(192, 250, 192);
+  background-color: rgb(11, 129, 11); 
+  
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
-  font-size: 32px;
+  font-size: 16px;
   border-radius: 20%;
   text-align: center;
   width: 180px;
@@ -108,14 +103,13 @@
 }
 
 .forum {
-  background-color: #13a700; 
-  border-style: solid;
-  border-color: 2px rgb(192, 250, 192);
+  background-color: rgb(11, 129, 11); 
+  
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
   display:block;
   text-decoration: none;
-  font-size: 32px;
+  font-size: 16px;
   border-radius: 20%;
   text-align: center;
   width: 180px;
