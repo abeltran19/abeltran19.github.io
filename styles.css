@@ -1,57 +1,50 @@
-
+/*Creates body countour for text, images, etc.*/
 .body{
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
-
 }
-
-.helpbuttons{
-  
+/*Spaces buttons*/
+.helpbuttons{ 
   margin-top: 6%;
   margin-left: 8%;
 }
-
+/*Styling for the basic button on the help page*/
 .basics {
-  background-color: rgb(11, 129, 11); 
-  text-align: center;
-  color: rgb(255, 255, 255);
-  box-shadow: 0 8px 6px -6px gray;
-  padding: 8px;
+  background-color: rgb(11, 129, 11); /*Setting a background color for the box*/
+  text-align: center;/*Aligning the text to be centered within the box*/
+  color: rgb(255, 255, 255);/*Text Color*/
+  box-shadow: 0 8px 6px -6px gray;/*Box Shadow size and color*/
+  padding: 8px;/*Spaces text within button by referencing distance to walls*/
   text-decoration: none;
-  font-size: 24px;
-  border-radius: 4px;
-  
-  width: 180px;
-  height: 105px;
-  font-weight: bold;
-  
+  font-size: 24px;/*Font Size*/
+  border-radius: 4px;/*Border Radius*/
+  width: 180px;/*Width of button*/
+  height: 105px;/*Height of Button*/
+  font-weight: bold;/*Font Bolded*/
 }
-
+/*Similar styling to the button above*/
 .faq {
   background-color: rgb(11, 129, 11); 
   text-align: center;
   padding: 8px;
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
-  
   text-decoration: none;
   font-size: 24px;
   border-radius: 4px;
-  
   width: 180px;
   height: 125px;
   font-weight: bold;
 }
-
+/*Similar styling to the button above*/
 .report {
   background-color: rgb(11, 129, 11); 
   text-align: center;
   padding: 8px;
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
-  
   text-decoration: none;
   font-size: 24px;
   border-radius: 4px;
@@ -59,16 +52,13 @@
   width: 180px;
   height: 95px;
   font-weight: bold;
-  
-  
 }
-
+/*Similar styling to the button above*/
 .contact {
   background-color: rgb(11, 129, 11); 
   text-align: center;
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
-  
   text-decoration: none;
   font-size: 24px;
   border-radius: 4px;
@@ -77,13 +67,12 @@
   height: 105px;
   font-weight: bold;
 }
-
+/*Similar styling to the button above*/
 .articles {
   background-color: rgb(11, 129, 11); 
   text-align: center;
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
-  
   text-decoration: none;
   font-size: 24px;
   border-radius: 4px;
@@ -92,13 +81,12 @@
   height: 105px;
   font-weight: bold;
 }
-
+/*Similar styling to the button above*/
 .forum {
   background-color: rgb(11, 129, 11); 
   text-align: center;
   color: rgb(255, 255, 255);
   box-shadow: 0 8px 6px -6px gray;
-  
   text-decoration: none;
   font-size: 24px;
   border-radius: 4px;
@@ -107,7 +95,7 @@
   height: 75px;
   font-weight: bold;
 }
-
+/*Similar styling to the button above except its for the Navbar*/
 .navbutton {
     background-color: rgb(9, 168, 9);
     box-shadow: 0.2vw 0.25vw 0.4vw 0.25vw;
@@ -122,10 +110,10 @@
     border-radius: 4px;
   }
   
-  /*settings for when hover over nav button to turn it a bit darker*/
+  /*Hover Styling for Navbar Buttons*/
   .navbutton:hover {
-    background-color: rgb(33, 104, 33);
-    color: black;
+    background-color: rgb(33, 104, 33);/*Button Color*/
+    color: black;/*Hover Color*/
     text-decoration: none;
   }
   
@@ -138,7 +126,7 @@
     text-align: center;
   }
   
-  
+  /*Similar styling to the button above except its for theHome page buttons*/
   .getstarted {
     background-color: rgb(11, 129, 11); 
     border: 1px rgb(177, 247, 168);
@@ -153,7 +141,7 @@
     border-radius: 4px;
     margin-left: 50%;
   }
-
+/*Similar styling to the button above*/
   .learnmore {
     background-color: rgb(11, 129, 11); 
     border: 1px rgb(177, 247, 168);
@@ -168,19 +156,19 @@
     border-radius: 4px;
     margin-left: 70%;
   }
-
+/*This helps create a section to the left on the homepage for text*/
   section {
     float: left;
     width: 40%;
   }
-
+/* THis creates a second section to the right*/
   aside {
     float: right;
     width: 50%;
   }
 
 
-  /* uh this is just test css don't touchy*/
+  /*Styling*/
   #myInput {
   background-image: url('/css/searchicon.png'); /* Add a search icon to input */
   background-position: 10px 12px; /* Position the search icon */
@@ -217,6 +205,8 @@
     /* Add a grey background color to the table header and on hover */
     background-color: #46ac0c;
   }
+
+  /*Creates body countour for text, images, etc.*/
 body{
   background: -webkit-linear-gradient(left, #000000, #039658);
   width: 100%;
@@ -225,16 +215,16 @@ body{
   margin-bottom: 100px;
   min-height: 100vh;
 }
-
+/*Creates a container to properly arrange elemnts within page*/
 #page-container {
   position: relative;
   min-height: 100vh;
 }
-
+/*wraps content so no overflow and adds space between the bottom*/
 #content-wrap {
   padding-bottom: 10px;
 }
-
+/*Adds a footer*/
 #footer {
   position: absolute;
   bottom: 0;
@@ -244,8 +234,7 @@ body{
   background-color: rgb(3, 194, 3);
   color: white;
 }
-
-/* Profile Codes */
+/*styling for profile page*/
 .emp-profile{
     padding: 3%;
     margin-top: 3%;
@@ -253,13 +242,16 @@ body{
     border-radius: 0.5rem;
     background: #fff;
 }
+/*styling for profile image*/
 .profile-img{
     text-align: center;
 }
+/*styling for profile image*/
 .profile-img img{
     width: 70%;
     height: 100%;
 }
+/*styling for profile image*/
 .profile-img .file {
     position: relative;
     overflow: hidden;
@@ -270,18 +262,22 @@ body{
     font-size: 15px;
     background: #212529b8;
 }
+/*styling for profile image*/
 .profile-img .file input {
     position: absolute;
     opacity: 0;
     right: 0;
     top: 0;
 }
+/*styling for profile*/
 .profile-head h5{
     color: #333;
 }
+/*styling for profile*/
 .profile-head h6{
     color: #0062cc;
 }
+/*styling for profile edit button*/
 .profile-edit-btn{
     border: none;
     border-radius: 1.5rem;
@@ -291,55 +287,65 @@ body{
     color: #6c757d;
     cursor: pointer;
 }
+/*styling for profile rating*/
 .proile-rating{
     font-size: 12px;
     color: #818182;
     margin-top: 5%;
 }
+/*styling for profile rating*/
 .proile-rating span{
     color: #495057;
     font-size: 15px;
     font-weight: 600;
 }
+/*styling for profile head*/
 .profile-head .nav-tabs{
     margin-bottom:5%;
 }
+/*styling for profile head*/
 .profile-head .nav-tabs .nav-link{
     font-weight:600;
     border: none;
 }
+/*styling for profile navigation tabs*/
 .profile-head .nav-tabs .nav-link.active{
     border: none;
     border-bottom:2px solid #0062cc;
 }
+/*styling for profile work section*/
 .profile-work{
     padding: 14%;
     margin-top: -15%;
 }
+/*styling for profile*/
 .profile-work p{
     font-size: 12px;
     color: #818182;
     font-weight: 600;
     margin-top: 10%;
 }
+/*styling for profile*/
 .profile-work a{
     text-decoration: none;
     color: #495057;
     font-weight: 600;
     font-size: 14px;
 }
+/*styling for profile list*/
 .profile-work ul{
     list-style: none;
 }
+/*styling for profile label*/
 .profile-tab label{
     font-weight: 600;
 }
+/*styling for profile tab*/
 .profile-tab p{
     font-weight: 600;
     color: #0062cc;
 }
 
-/* Profile Code Ends */
 
 /*to make links not have underline unless hovered on or clicked*/
 a:link { text-decoration: none; color:inherit;}
@@ -348,12 +354,12 @@ a:hover { text-decoration: underline; color:black;}
 a:active { text-decoration: underline; color:inherit; }
 
 
-/* Bordered  form */
+/* Border the form */
 form {
   border: 3px solid #f1f1f1;
 }
 
-/* Full-width inputs */
+/* Full-width inputs with styling */
 input[type=text], input[type=password] {
   width: 80%;
   padding: 12px 20px;
@@ -363,7 +369,7 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
-/* Set a style for all buttons */
+/* Styling all buttons */
 button {
   background-color: #04AA6D;
   color: white;
@@ -403,7 +409,7 @@ img.avatar {
   padding: 16px;
   color: white
 }
-
+/*More regular container padding*/
 .container {
   padding: 16px;
 }
