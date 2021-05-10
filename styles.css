@@ -255,6 +255,7 @@ body{
   color: white;
 }
 
+/* Profile Codes */
 .emp-profile{
     padding: 3%;
     margin-top: 3%;
@@ -348,6 +349,7 @@ body{
     color: #0062cc;
 }
 
+/* Profile Code Ends */
 
 /*to make links not have underline unless hovered on or clicked*/
 a:link { text-decoration: none; color:inherit;}
